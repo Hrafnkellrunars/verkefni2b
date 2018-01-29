@@ -1,4 +1,5 @@
 from bottle import route, static_file, run, error, static_file
+import os
 
 
 @route('/')
@@ -73,4 +74,4 @@ def error404(error):
 def send_image(filename):
     return static_file(filename, root='./static/img', mimetype='image/png')
 
-run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=os.environ.get('PORT'))
