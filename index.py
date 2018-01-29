@@ -35,7 +35,7 @@ def index():
                 </head>
 
                 <body>
-                    <h2> <h1> Stafurinn V </h1>
+                    <h2> <h1> Stafurinn B </h1>
                     
                     <a href="b"><img src="/static/img/b.png"></a>
                     <h3> Fleiri Stafir </h3>
